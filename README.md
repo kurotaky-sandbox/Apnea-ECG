@@ -1,2 +1,8 @@
 # Apnea-ECG
-https://www.physionet.org/content/apnea-ecg/1.0.0/
+
+## Setup
+```
+docker-compose up
+```
+
+http://localhost:8888/
