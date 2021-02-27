@@ -1,5 +1,8 @@
 FROM continuumio/anaconda3
 
+RUN apt-get update
+RUN apt-get install -y build-essential graphviz-dev graphviz pkg-config
+
 RUN pip install --upgrade pip && \
     pip install autopep8 && \
     pip install Keras && \
